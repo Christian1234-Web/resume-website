@@ -1,0 +1,40 @@
+// @import "../node_modules/bootstrap/scss/functions";
+// 2. Include any default variable overrides here
+// 3. Include remainder of required Bootstrap stylesheets
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/grid";
+$purple :rgb(132, 0, 255);
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+* {
+    padding: 0;
+    margin: 10;
+    box-sizing: border-box;
+}
+
+.banner {
+    // width: 1200px;
+    height: 658px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .7)), url('../image/coding1.jpg');
+    background-repeat: no-repeat;
+    // background-position: right;
+    background-size: cover;
+}
+
+.link-group a {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #999;
+}
+
+a {
+    text-decoration: none;
+    color: #888;
+}
+
+.portfolio img {
+    height: 200px;
+    object-fit: cover;
+    // box-shadow: rgb (0, 0, 0, 0.8);
+}
